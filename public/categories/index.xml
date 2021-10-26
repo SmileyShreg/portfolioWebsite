@@ -1,10 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Shreya Gowri</title>
+    <title>Categories on Shreya Gowri Portfolio</title>
     <link>http://shreyagowri.co.in/categories/</link>
-    <description>Recent content in Categories on Shreya Gowri</description>
+    <description>Recent content in Categories on Shreya Gowri Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://shreyagowri.co.in/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Sat, 14 Mar 2020 15:40:24 +0600</lastBuildDate><atom:link href="http://shreyagowri.co.in/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>lifestyle</title>
+      <link>http://shreyagowri.co.in/categories/lifestyle/</link>
+      <pubDate>Sat, 14 Mar 2020 15:40:24 +0600</pubDate>
+      
+      <guid>http://shreyagowri.co.in/categories/lifestyle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>operations</title>
+      <link>http://shreyagowri.co.in/categories/operations/</link>
+      <pubDate>Sat, 14 Mar 2020 15:40:24 +0600</pubDate>
+      
+      <guid>http://shreyagowri.co.in/categories/operations/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Package Design</title>
+      <link>http://shreyagowri.co.in/categories/package-design/</link>
+      <pubDate>Sat, 14 Mar 2020 15:40:24 +0600</pubDate>
+      
+      <guid>http://shreyagowri.co.in/categories/package-design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tour</title>
+      <link>http://shreyagowri.co.in/categories/tour/</link>
+      <pubDate>Sat, 14 Mar 2020 15:40:24 +0600</pubDate>
+      
+      <guid>http://shreyagowri.co.in/categories/tour/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

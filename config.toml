@@ -1,6 +1,6 @@
 baseURL = 'http://shreyagowri.co.in/'
 languageCode = 'en-us'
-title = 'Shreya Gowri Portfolio'
+title = 'I AM SHREYA'
 theme = 'twenty-twenty-hugo-master'
 
 # Page settings
@@ -46,23 +46,20 @@ URL = "about"
 weight = 2
 
 [[menu.main]]
-name = "Blog"
+name = "Projects"
 URL = "blog"
 weight = 3
 
 [[menu.main]]
-name = "Contact"
+name = "Work with me"
 URL = "contact"
 weight = 4
 
-[[menu.main]]
-name = "Sample Page"
-URL = "sample-page"
-weight = 5
+
 
 # only desktop menu
 [[menu.desktop]]
-name = "Contact"
+name = "Work with me"
 URL = "contact"
 weight = 1
 
@@ -84,46 +81,47 @@ expire_days = 2
 
 # banner
 [params.banner]
-heading = "The New UMoMA Opens its Doors"
-image = "images/2020-landscape-1-2.png"
+heading = "simplicity in Design is COMPLEX"
+image = "images/landing/landing1.jpg"
 
 # blog
 [params.blog]
-heading = "The premier destination for modern art in Northern Sweden. Open from 10 AM to 6 PM every day during the summer months."
+heading = "Shreya Gowri is an Industrial Designer ,Inspired by Nature,  A lover of Color , Form , Abstraction and Philosophy"
 
 # call to action
 [params.call_to_action]
 enable = true
-title = "Contact us for more information."
-content = "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis"
-button_label = "Contact Us"
+title = "Work with me "
+content = "<h4>Graphic design services for businesses of any size.</h4>Do you have a brand identity project which needs more artistic approach than a designer ? Let us discuss"
+button_label = "Work with me"
 button_url = "contact"
 
 # gallery
 [params.gallery]
-enable = true
+enable = false
 
 [[params.gallery.gallery_item ]]
-image = "images/2020-square-2.png"
+image = "images/illustrations/sunrise.png"
 
 [[params.gallery.gallery_item ]]
-image = "images/2020-square-1.png"
+image = "images/illustrations/lady nature.jpg"
 
 
 # footer
 [params.footer]
 title = "About This Site"
-content = "This may be a good place to introduce yourself and your site or include some credits."
-address = "123 Main Street <br> New York, NY 10001"
+content = "Shreya Gowri is an Industrial Designer.Has worked with package design , branding"
+address = "Begur, Bengaluru"
 hours = "Monday–Friday: 9:00AM–5:00PM <br> Saturday & Sunday: 11:00AM–3:00PM"
 copyright = "Copyright &copy; 2021 a hugo theme by [themefisher](https://themefisher.com/hugo-themes/) ported from [WordPress Twenty Twenty](https://github.com/WordPress/twentytwenty)"
 
 ############################# social site ########################
 [params.social]
-yelp = "#"
+substack = "https://shreyagowri22.substack.com/"
+medium = "https://medium.com/@shreyagowri"
 facebook = "#"
-twitter = "#"
-instagram = "#"
-email = "#"
-linkedin = "#"
+twitter = "https://twitter.com/Shreya89763446"
+instagram = "shreyagowri"
+email = "shreyagowri22@gmail.com"
+linkedin = "https://www.linkedin.com/in/shreyagowri/"
 
