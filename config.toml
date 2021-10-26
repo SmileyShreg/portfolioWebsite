@@ -51,8 +51,8 @@ URL = "blog"
 weight = 3
 
 [[menu.main]]
-name = "Work with me"
-URL = "contact"
+name = "Categories"
+URL = "categories"
 weight = 4
 
 
@@ -98,10 +98,10 @@ button_url = "contact"
 
 # gallery
 [params.gallery]
-enable = false
+enable = true
 
 [[params.gallery.gallery_item ]]
-image = "images/illustrations/sunrise.png"
+image = "images/illustrations/maskWomanShreyaGowri.jpg"
 
 [[params.gallery.gallery_item ]]
 image = "images/illustrations/lady nature.jpg"
