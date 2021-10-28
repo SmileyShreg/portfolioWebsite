@@ -1,16 +1,18 @@
 ---
-title: "From Signac to Matisse"
+title: "Illustrations"
 date: 2020-03-14T15:40:24+06:00
-image : "static/images/illustrations/illustration(1).jpg" 
+
 image : "images/illustrations/illustration(2).jpg"
 # author
-author : ["Admin"]
+author : ["Shreya Gowri"]
 # categories
-categories: ["tour"]
-tags: ["tour","visit"]
+categories: ["illustrations"]
+tags: ["illustrations"]
 # meta description
 description: "This is meta description"
 # save as draft
 draft: false
 ---
 
+
+**[Kala.aakara](https://www.instagram.com/kala.aakara/)**
