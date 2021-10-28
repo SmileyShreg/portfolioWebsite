@@ -1,6 +1,5 @@
 ---
 title: "Package Design"
-date: 2020-03-14T15:40:24+06:00
 
 image : "images/package/soap_charcoal.png"
 

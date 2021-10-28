@@ -30,7 +30,7 @@ unsafe = true
 [taxonomies]
 category = "categories"
 tag = "tags"
-author = "author"
+author = "Shreya Gowri"
 
 ############################## navigation ###############################
 
@@ -81,9 +81,9 @@ expire_days = 2
 
 # banner
 [params.banner]
-heading = "simplicity in Design is COMPLEX"
-image = "images/landing/landing1.jpg"
+heading = "I believe all crazy ideas are important if they would help in expressing self"
 
+image = "images/landing/website_screen.gif"
 # blog
 [params.blog]
 heading = "Shreya Gowri is an Industrial Designer ,Inspired by Nature,  A lover of Color , Form , Abstraction and Philosophy"
@@ -94,7 +94,7 @@ enable = true
 title = "Work with me "
 content = "<h4>Graphic design services for businesses of any size.</h4>Do you have a brand identity project which needs more artistic approach than a designer ? Let us discuss"
 button_label = "Work with me"
-button_url = "contact"
+button_url = "https://discord.com/users/Shreya#5482"
 
 # gallery
 [params.gallery]
@@ -121,7 +121,7 @@ substack = "https://shreyagowri22.substack.com/"
 medium = "https://medium.com/@shreyagowri"
 facebook = "#"
 twitter = "https://twitter.com/Shreya89763446"
-instagram = "shreyagowri"
+instagram = "https://www.instagram.com/kala.aakara/"
 email = "shreyagowri22@gmail.com"
 linkedin = "https://www.linkedin.com/in/shreyagowri/"
 
