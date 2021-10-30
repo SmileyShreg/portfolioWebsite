@@ -1,3 +1,3 @@
 [submodule "themes/twenty-twenty-hugo-master"]
-path = theme/twenty-twenty-hugo-master
+path = themes/twenty-twenty-hugo-master
 url = "https://github.com/themefisher/twenty-twenty-hugo.git"
