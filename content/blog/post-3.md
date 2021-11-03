@@ -1,5 +1,5 @@
 ---
-title: "Bamboo Chair"
+title: "Bamboo Furniture"
 image : "images/bamboo_chairs/RESTOBUDDY.png"
 # author
 author : ["Shreya Gowri"]
