@@ -1,127 +1,68 @@
-baseURL = 'http://www.shreyagowri.co.in/'
-languageCode = 'en-us'
-title = 'I AM SHREYA'
-theme = 'twenty-twenty-hugo-master'
+baseurl = "https://example.org/"
+title = "Creative portfolio"
+theme = "hugo-creative-portfolio-theme"
+languageCode = "en-us"
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
 
-# Page settings
-######################## default configuration ####################
-
-# post pagination
-paginate = "6"
-# post excerpt
-summaryLength = "10"
-# disqus short name
-disqusShortname = "" # get your shortname form here : https://disqus.com
-# disable language
-disableLanguages = [] # desable language from here
-# google analytics
-googleAnalytics = "" # example : UA-123-45
-
-
-
-############################## Output ###############################
-[outputs]
-home = ["HTML", "RSS", "JSON"]
-
-# unsafe html
-[markup.goldmark.renderer]
-unsafe = true
-
-[taxonomies]
-category = "categories"
-tag = "tags"
-author = "Shreya Gowri"
-Admin = "Shreya Gowri"
-############################## navigation ###############################
-
-# main menu
-[[menu.main]]
-name = "Home"
-URL = "/"
-weight = 1
-
-[[menu.main]]
-name = "About"
-URL = "about"
-weight = 2
-
-[[menu.main]]
-name = "Projects"
-URL = "blog"
-weight = 3
-
-[[menu.main]]
-name = "Categories"
-URL = "categories"
-weight = 4
-
-
-
-# only desktop menu
-[[menu.desktop]]
-name = "Work with me"
-URL = "contact"
-weight = 1
-
-
-#################### default parameters ################################
 [params]
-# Meta data
-description = "This is meta description"
-author = "Themefisher"
+  # Style options: default (pink), blue, green, pink, red, sea, violet
+  # Use custom.css for your custom styling
+  style = "default"
+  description = "Describe your website"
+  copyright = "&copy;2016 Your name or company"
+  sidebarAbout = [
+    "I am a creative illustrator and graphic designer with more than 10 years of experience.",
+    "Originally from Toronto, currently based in London."
+  ]
+  # Contact page
+     # Since this template is static, the contact form uses www.formspree.io as a
+     # proxy. The form makes a POST request to their servers to send the actual
+     # email. Visitors can send up to a 1000 emails each month for free.
+     #
+     # What you need to do for the setup?
+     #
+     # - set your email address under 'email' below
+     # - upload the generated site to your server
+     # - send a dummy email yourself to confirm your account
+     # - click the confirm link in the email from www.formspree.io
+     # - you're done. Happy mailing!
+  email = "you@yoursite.com"
 
-# favicon
-[params.favicon]
-favicon = "images/favicon.png"
+    # Optional Matomo analytics (formerly piwik)
+      # [params.analytics.matomo]
+      #  URL = "https://stats.example.com"
+      #  ID = "42"
+      #  # Track all subdomains with "*.example.com" (Optional)
+      #  domain = "www.example.com"
+      #  # Optional integrity check hash
+      #  hash = ""
 
-# cookies
-[params.cookies]
-enable = true
-expire_days = 2
+  # Nav links in the side bar
+  [[params.navlinks]]
+  name = "Home"
+  url = "portfolio/"
+  home = true
 
-# banner
-[params.banner]
-heading = "I believe all crazy ideas are important if they would help in expressing self"
+  [[params.navlinks]]
+  name = "About"
+  url = "about/"
 
-image = "images/landing/website_screen.gif"
-# blog
-[params.blog]
-heading = "Shreya Gowri is an Industrial Designer ,Inspired by Nature,  A lover of Color , Form , Abstraction and Philosophy"
+  [[params.navlinks]]
+  name = "Get in touch"
+  url = "contact/"
 
-# call to action
-[params.call_to_action]
-enable = true
-title = "Work with me "
-content = "<h4>Graphic design services for businesses of any size.</h4>Do you have a brand identity project which needs more artistic approach than a designer ? Let us discuss"
-button_label = "Work with me"
-button_url = "https://discord.com/users/Shreya#5482"
-
-# gallery
-[params.gallery]
-enable = true
-
-[[params.gallery.gallery_item ]]
-image = "images/illustrations/maskWomanShreyaGowri.jpg"
-
-[[params.gallery.gallery_item ]]
-image = "images/illustrations/lady nature.jpg"
-
-
-# footer
-[params.footer]
-title = "About This Site"
-content = "Shreya Gowri is an Industrial Designer.Has worked with package design , branding"
-address = "Begur, Bengaluru"
-hours = "Monday–Friday: 9:00AM–5:00PM <br> Saturday & Sunday: 11:00AM–3:00PM"
-copyright = "Copyright &copy; 2021 a hugo theme by [themefisher](https://themefisher.com/hugo-themes/) ported from [WordPress Twenty Twenty](https://github.com/WordPress/twentytwenty)"
-
-############################# social site ########################
-[params.social]
-substack = "https://shreyagowri22.substack.com/"
-medium = "https://medium.com/@shreyagowri"
-facebook = "#"
-twitter = "https://twitter.com/Shreya89763446"
-instagram = "https://www.instagram.com/kala.aakara/"
-email = "shreyagowri22@gmail.com"
-linkedin = "https://www.linkedin.com/in/shreyagowri/"
-
+  [params.social]
+  facebook      = "full page or profile url in facebook"
+  googleplus    = "full profile url in googleplus"
+  email         = "email@example.com"
+  twitter       = "full profile url in twitter"
+  linkedin      = "full profile url in linkedin"
+  stackoverflow = "full profile url in stackoverflow"
+  instagram     = "full profile url in instagram"
+  github        = "full profile url in github"
+  gitlab        = "full profile url in gitlab"
+  youtube       = "full profile url in youtube"
+  whatsapp      = "wa.me service link"
