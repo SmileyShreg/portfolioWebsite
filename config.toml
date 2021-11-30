@@ -11,11 +11,12 @@ googleAnalytics = ""
   # Style options: default (pink), blue, green, pink, red, sea, violet
   # Use custom.css for your custom styling
   style = "default"
-  description = "Describe your website"
-  copyright = "&copy;2016 Your name or company"
+  description = "Portoflio website"
+  copyright = "&copy;2016 Shreya Gowri"
   sidebarAbout = [
-    "I am a creative illustrator and graphic designer with more than 10 years of experience.",
-    "Originally from Toronto, currently based in London."
+      "I am an Industrial Designer , creative practitioner  and graphic designer with more than 2 years of experience.",
+" Started my journey trying to express my story , feeling . Now open to help you too tell your story. " ,
+"Based in Bengaluru."
   ]
   # Contact page
      # Since this template is static, the contact form uses www.formspree.io as a
@@ -55,14 +56,14 @@ googleAnalytics = ""
   url = "contact/"
 
   [params.social]
-  facebook      = "full page or profile url in facebook"
-  googleplus    = "full profile url in googleplus"
-  email         = "email@example.com"
-  twitter       = "full profile url in twitter"
-  linkedin      = "full profile url in linkedin"
-  stackoverflow = "full profile url in stackoverflow"
-  instagram     = "full profile url in instagram"
-  github        = "full profile url in github"
-  gitlab        = "full profile url in gitlab"
-  youtube       = "full profile url in youtube"
-  whatsapp      = "wa.me service link"
+  #facebook      = "full page or profile url in facebook"
+  #googleplus    = "full profile url in googleplus"
+  email         = "shreyagowri@outlook.com"
+  twitter       = "https://twitter.com/Shreya89763446"
+  linkedin      = "https://www.linkedin.com/in/shreyagowri/"
+  medium        = "https://medium.com/@shreyagowri"
+  instagram     = "https://www.instagram.com/glowing_gorrilla_art/"
+  
+  youtube       = "https://twitter.com/Shreya89763446"
+
+
